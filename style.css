@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header{
+	max-height: 1140px;
+	display: block;
+}
+body{
+	background-image: url(assets/IMG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+	
+	
+	
+}
+
+.logo{
+	position: relative;
+	text-decoration: none;
+	flex: none;
+	font-size: 30px;
+	top: 35px;
+	left: 5rem;	
+	display: inline-block;
+	transition: 2s;	
+	
+}
+
+.active:active {
+  background-color: yellow;
+}
+
+.logo:hover{
+	background-color: gold;
+	
+	
+}
+
+nav ul li{
+	float: right;
+	display:block;
+	color: #fff;
+	margin: 10px;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-right: 1px solid #bbb;
+	text-transform: uppercase;
+	background-color: rgba(166, 166, 166, 0.36);
+	cursor: pointer;
+	transition: 2s;
+	
+	
+}
+
+ul li a{
+	color: #fff;
+}
+nav ul li:hover{
+	background-color: blueviolet;
+}
+
+.h1text{
+	position:relative;
+	text-align: center;
+	top: 10rem;
+	text-transform: uppercase;
+	color: white;
+	font-size: 26px;
+	
+}
+
+.lorem{
+	position: absolute;
+	text-align: center;
+	top: 16em;
+	left: 10em;
+	color: #fff;
+}
+.shop{
+	position: relative;
+	top: 15rem;;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	background-color: #E5AC2E;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	left: 20%;
+	cursor: pointer;
+  	 
+
+	
+}
+
+.shop:hover{
+	background-color:#000;
+	transition: 2s;
+	
+}
+.active:active{
+	background-color: red;
+}

@@ -107,3 +107,103 @@ nav ul li:hover{
 .active:active{
 	background-color: red;
 }
+
+.col{
+	position: relative;
+	top: 28rem;
+	text-align: center;
+	font-size: 25px;
+	color:purple;
+}
+.pic1 img{
+	position: relative;
+	height: 350px;
+	top: 30rem;
+	left: 3rem;
+	
+}
+
+.pic2 img{
+	position: absolute;
+	height: 350px;
+	left: 24rem;
+	top: 41.4rem;
+}
+
+.pic3 img{
+	position:absolute;
+	height: 350px;
+	top: 41.5rem;
+	left: 45rem;
+}
+
+.pic4 img{
+	position: absolute;
+	height: 350px;
+	top: 41.5rem;
+	left: 65rem;
+}
+
+.new{
+	position: absolute;
+	top: 65rem;
+	left: 43%;
+	font-size: 30px;
+	color: firebrick;
+}
+
+.pic11 img{
+	position: absolute;
+	height: 350px;
+	top: 70rem;
+	left: 3rem;
+}
+
+.pic22 img{
+	position: absolute;
+	height: 350px;
+	top: 70rem;
+	left: 25rem;
+}
+
+.pic33 img{
+	position: absolute;
+	height: 350px;
+	top: 70rem;
+	left: 46rem;
+}
+
+.pic44 img{
+	position: absolute;
+	height: 350px;
+	top: 70rem;
+	left: 66rem;
+}
+
+.pic5 img{
+	position: absolute;
+	height: 350px;
+	top: 95rem;
+	left: 3rem;
+}
+
+.pic6 img{
+	position: absolute;
+	height: 350px;
+	top: 95rem;
+	left: 25rem;
+}
+
+.pic7 img{
+	position: absolute;
+	height: 350px;
+	top: 95rem;
+	left: 46rem;
+}
+
+.pic8 img{
+	position: absolute;
+	height: 350px;
+	top: 95rem;
+	left: 66rem
+}
